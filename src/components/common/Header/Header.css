@@ -1,0 +1,21 @@
+.dialogheader {
+  width: 100%;
+  height: .88rem;
+  background: #569cea;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.dialogheader i {
+  font-size: .3rem;
+  color: #fff;
+  font-weight: bolder;
+  border-right: 1px solid #fff;
+  padding: 0 .21rem;
+}
+
+.dialogheader b {
+  color: #fff;
+  margin-left: .22rem;
+}

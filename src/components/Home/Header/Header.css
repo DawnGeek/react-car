@@ -1,0 +1,14 @@
+.homeheader {
+	width: 96%;
+  height: .88rem;
+  background: #fff;
+  margin-top: .12rem;
+  padding: 0 .22rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#allmap {
+	display: none;
+}

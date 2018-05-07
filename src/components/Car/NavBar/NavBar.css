@@ -1,0 +1,55 @@
+nav {
+  position: relative;
+  width: 100%;
+  height: .88rem;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+}
+
+nav a {
+  flex: 1;
+}
+
+nav span {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: .88rem;
+  display: flex;
+  align-items: center;
+  text-indent: .5rem;
+  color: #2f3540;
+}
+
+nav a.active span {
+  color: #ff6d02;
+  background: #fff;
+}
+
+nav span::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: .3rem;
+  transform: translateY(-33%);
+  display: block;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-top-color: #2f3540; 
+
+}
+
+nav a.active span::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: .3rem;
+  transform: translateY(-80%);
+  display: block;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-bottom-color: #ff6d02; 
+}

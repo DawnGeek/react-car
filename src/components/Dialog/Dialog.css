@@ -1,0 +1,55 @@
+.dialog {
+	position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.car {
+  width: 100%;
+  height: .88rem;
+  padding: 0 .21rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.markBox {
+  flex: 1;
+  width: 100%;
+  overflow-y: scroll;
+  padding: 0 .12rem;
+  transition: .3s;
+}
+
+.cityBox li {
+  margin-bottom: .1rem;
+}
+
+.cityBox h5 {
+  margin: .1rem 0;
+  text-indent: .1rem;
+}
+
+.listBox span {
+  display: inline-block;
+  padding: .1rem;
+  margin-right: .1rem;
+  margin-bottom: .1rem;
+  border-radius: 6px;
+}
+
+span.active {
+  background: #569cea;
+  color: #fff;
+}
+
+span.or {
+  background: orange;
+  color: #fff;
+}

@@ -1,0 +1,32 @@
+.cheheader {
+  width: 100%;
+  height: .88rem;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .32rem;
+}
+
+.dialogheader>i {
+  font-size: .3rem;
+  color: #fff;
+  font-weight: bolder;
+  border-right: 1px solid #fff;
+
+
+}
+
+.dialogheader>b {
+  color: #fff;
+}
+
+.input {
+  flex: 1;
+  height: 70%;
+  margin: 0 .22rem;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
